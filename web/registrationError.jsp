@@ -30,7 +30,7 @@ limitations under the License.
 <h2>Error!</h2>
 
 An error occur during the registration.
-Please, try again to register and if the problem persists, send an email to <a href="mailto:bbecker@csir.sagrid.ac.za">IDP Admin</a>.
+Please, try again to register and if the problem persist send an email to <a href="mailto:sgwadmin@garr.it">credentials-admin@ct.infn.it</a>.
 
     <s:form action="login.action" method="POST">
         <s:submit name="back" value="Back"/>

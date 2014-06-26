@@ -2,16 +2,15 @@
  
                     </div>
             </div>
-            <div class="footer">Brought to you by</div>
             <div class="footer">
-                <span style="float:left; padding:5px;">
-                 <a href="http://www.meraka.org.za"><img src="img/csir_meraka.jpg" alt="CSIR Meraka Institute"></a>
+                <span style="float:right; padding:5px;">
+                 <img src="img/logo_.png" alt="logo infn">
                 </span>
                 <span style="float:right; padding:5px;">
-                    <a href="http://www.sagrid.ac.za"><img src="img/SANCG_logoTransparent-cropped.png" alt="South African National Grid"></a>
+                    <img src="img/cometa.png" alt="logo cometa">
                 </span>
-                <span style="float:right; padding: 5px 5px 5px 5px;">
-                    <a href="http://www.sanren.ac.za"><img src="img/SANReN_tiny.png" alt="South African National Research Network"></a>
+                <span style="float:right; padding: 0px 5px 5px 5px;">
+                    <img src="img/garr.gif" alt="logo garr">
                 </span>
                 </div>
         </div>

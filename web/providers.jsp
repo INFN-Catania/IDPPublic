@@ -10,7 +10,7 @@
 
 
 <p>
-    Currently, the catch-all federation authenticates the users of the following Service Providers:
+    Currently, IDPOPEN authenticates the users of the following Service Providers:
 </p>
 
 <ul>

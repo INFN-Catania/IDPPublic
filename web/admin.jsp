@@ -23,9 +23,6 @@
             return false;
         }
     </script>
-    <div style="float: right;">
-        <a href="<%= request.getContextPath() %>/Logout.action" ><img src="img/Log-Out-icon.png" alt="" width="24" height="24">Logout</a>
-    </div>
     <s:action name="AdminAction" executeResult="true" namespace="/" />
     
     <s:form action="ValidateRegisterUserData.action" id="register" >

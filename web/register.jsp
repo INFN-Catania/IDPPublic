@@ -121,7 +121,7 @@ var orgs=new Array();
                     <td>
                         <select onchange="fillOrgs()" name="country" id="country">
                             <option value="-1" selected="selected">Select Country</option> 
-                            <option value="AX">Ã…land Islands</option>
+                            <option value="AX">Åland Islands</option>
                             <option value="AF">Afghanistan</option>
                             <option value="AL">Albania</option>
                             <option value="DZ">Algeria</option>
@@ -177,10 +177,10 @@ var orgs=new Array();
                             <option value="CR">Costa Rica</option>
                             <option value="HR">Croatia</option>
                             <option value="CU">Cuba</option>
-                            <option value="CW">CuraÃ§ao</option>
+                            <option value="CW">Curaçao</option>
                             <option value="CY">Cyprus</option>
                             <option value="CZ">Czech Republic</option>
-                            <option value="CI">CÃ´te D'Ivoire</option>
+                            <option value="CI">Côte D'Ivoire</option>
                             <option value="DK">Denmark</option>
                             <option value="DJ">Djibouti</option>
                             <option value="DM">Dominica</option>
@@ -305,8 +305,8 @@ var orgs=new Array();
                             <option value="RO">Romania</option>
                             <option value="RU">Russian Federation</option>
                             <option value="RW">Rwanda</option>
-                            <option value="RE">RÃ©union</option>
-                            <option value="BL">Saint BarthÃ©lemy</option>
+                            <option value="RE">Réunion</option>
+                            <option value="BL">Saint Barthélemy</option>
                             <option value="SH">Saint Helena, Ascension and Tristan Da Cunha</option>
                             <option value="KN">Saint Kitts And Nevis</option>
                             <option value="LC">Saint Lucia</option>

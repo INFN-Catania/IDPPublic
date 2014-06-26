@@ -111,7 +111,7 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
             addFieldError("captcha", "Wrong Captcha");
         }
         if(password.length() < 8){
-            addFieldError("password","Minimum password length is 8 characters");
+            addFieldError("password","Minimum password lenght is 8 characters");
         }
         if(!password.equals(password2)){
            addFieldError("password2","Passwords are different");
