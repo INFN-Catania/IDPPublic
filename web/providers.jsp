@@ -53,6 +53,7 @@
     <li>
         <i>Other Services:</i>
         <ol>
+            <li><a href="http://agenda.ct.infn.it/">Agenda (based on Indico, to schedule and organise events, from simple lectures to complex meetings, workshops and conferences with sessions and contributions)</a></li>
             <li><a href="https://foodl.org/">Foodle (surveys, polls and meeting scheduler)</a></li>
         </ol>
     </li>
