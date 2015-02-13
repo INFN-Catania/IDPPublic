@@ -39,15 +39,14 @@
         <i>Project Portals:</i>
         <ol>
             <li><a href="http://www.chain-project.eu/">The CHAIN portal</a></li>
-            <li><a href="http://www.special-project.it/">The SPECIAL portal</a></li>
             <li><a href="https://www.progettovespa.it">The VESPA portal (in italian)</a></li>
         </ol>
     </li>
     <li>
         <i>Training and Collaboration Portals:</i>
         <ol>
+            <li><a href="http://connect.ct.infn.it/">Adobe Connect based web meeting and learning management system at INFN Catania</a></li>
             <li><a href="http://gilda.ct.infn.it/">The GILDA t-Infrastructure portal</a></li>
-            <li><a href="http://ricevi.ct.infn.it/">The RICeVI portal</a> (in italian)</li>
         </ol>
     </li>
     <li>
