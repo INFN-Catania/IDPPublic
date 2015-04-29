@@ -20,6 +20,7 @@
             <li><a href="http://atlases.muni.cz">Atlases - PATHOLOGY IMAGES</a></li>
             <li><a href="http://sgw.africa-grid.org/">The Africa Grid Science Gateway</a></li>
             <li><a href="http://aginfra-sg.ct.infn.it/">The agINFRA Science Gateway</a></li>
+            <li><a href="http://sgw.asrenorg.net">The ASREN Science Gateway</a></li>
             <li><a href="http://science-gateway.chain-project.eu/">The CHAIN Science Gateway</a></li>
             <li><a href="http://cogito-med.ct.infn.it/">The COGITO-MED Science Gateway</a></li>
             <li><a href="http://ecsg.dch-rp.eu">The DCH-RP e-Culture Science Gateway</a></li>
