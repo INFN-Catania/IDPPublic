@@ -54,6 +54,7 @@
         <i>Other Services:</i>
         <ol>
             <li><a href="http://agenda.ct.infn.it/">Agenda (based on Indico, to schedule and organise events, from simple lectures to complex meetings, workshops and conferences with sessions and contributions)</a></li>
+            <li><a href="http://discourse.sci-gaia.eu/">Sci-GaIA project web forum on e-Infrastructures</a></li>
             <li><a href="https://foodl.org/">Foodle (surveys, polls and meeting scheduler)</a></li>
         </ol>
     </li>
