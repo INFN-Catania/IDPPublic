@@ -22,7 +22,7 @@
 
 
                     <p>
-                       If you are interested in either using IDPOPEN to authenticate people on your website(s) or registering it as an Identity Provider of your Identity Federation(s), please contact sgwadmin_AT_garr.it.
+                       If you are interested in either using IDPOPEN to authenticate people on your website(s) or registering it as an Identity Provider of your Identity Federation(s), please contact credentials-admin_AT_ct.infn.it.
                     </p>
 
 

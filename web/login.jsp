@@ -37,5 +37,5 @@ limitations under the License.
                 <a href="<s:url action='forgotpass' namespace="/"/>">Forgot your password?</a>
             </h4>
 
-                <h4>For any problems write to <a href="mailto:sgwadmin@garr.it">sgwadmin@garr.it</a>.</h4>
+                <h4>For any problems write to <a href="mailto:credentials-admin@ct.infn.it">credentials-admin@ct.infn.it</a>.</h4>
 <%@include file="WEB-INF/jspf/footer.jspf" %>

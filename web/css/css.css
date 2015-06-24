@@ -457,7 +457,8 @@ a.nivo-prevNav {
 }
 .footer{
     border-top: 1px solid #cdcdcd;
-    border-bottom: 1px solid #cdcdcd;
+    font-size: 12px;
+    color: #B4B4B4;
 }
 
 /* Modified */
