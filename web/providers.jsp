@@ -25,6 +25,7 @@
             <li><a href="http://cogito-med.ct.infn.it/">The COGITO-MED Science Gateway</a></li>
             <li><a href="http://ecsg.dch-rp.eu">The DCH-RP e-Culture Science Gateway</a></li>
             <li><a href="http://applications.eu-decide.eu/">The DECIDE Science Gateway</a></li>
+            <li><a href="http://sgw.grid.arn.dz/">The DZ e-Science GRID Science Gateway</a></li>
             <li><a href="http://earthserver-sg.consorzio-cometa.it/">The EarthServer Science Gateway</a></li>
             <li><a href="http://applications.eumedgrid.eu/">The EUMEDGRID Science Gateway</a></li>
             <li><a href="http://sgw.garr.it/">The GARR Science Gateway</a></li>
