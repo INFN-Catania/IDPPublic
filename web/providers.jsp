@@ -49,6 +49,7 @@
         <ol>
             <li><a href="http://connect.ct.infn.it/">Adobe Connect based web meeting and learning management system at INFN Catania</a></li>
             <li><a href="http://gilda.ct.infn.it/">The GILDA t-Infrastructure portal</a></li>
+            <li><a href="http://courses.sci-gaia.eu">Sci-GaIA Online Courses based on Open Edx</a></li>
         </ol>
     </li>
     <li>
