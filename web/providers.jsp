@@ -36,6 +36,13 @@
         </ol>
     </li>
 
+    <li>
+        <i>Open Access Repositories:</i>
+        <ol>
+            <li><a href="http://www.openaccessrepository.it">The INFN Open Access Repository</a></li>
+            <li><a href="http://oar.sci-gaia.eu">The Sci-GaIA Open Access Repository</a></li>
+        </ol>
+    </li>
 
     <li>
         <i>Project Portals:</i>
