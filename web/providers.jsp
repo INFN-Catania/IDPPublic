@@ -41,6 +41,7 @@
         <ol>
             <li><a href="http://www.openaccessrepository.it">The INFN Open Access Repository</a></li>
             <li><a href="http://oar.sci-gaia.eu">The Sci-GaIA Open Access Repository</a></li>
+            <li><a href="https://access.ternet.or.tz">The TERNET Open Access Repository</a></li>
         </ol>
     </li>
 
