@@ -408,7 +408,7 @@ var orgs=new Array();
                         </div>
                     </td>
                 </tr>
-                <s:textfield label="Email Address" name="registeredMail" maxLength="128" required="true" />
+                <s:textfield label="Institutional Email Address" tooltip="Mail with the domain of the selected organisation" name="registeredMail" maxLength="128" required="true" />
                 <s:textfield label="Additional Email Addresses" tooltip="Separate the addresses with a , or ;" name="otherMails" maxLength="512" />
                 <tr><td><br /></td></tr>
                 <tr><td><p><h2>Validation</h2></p></td></tr>
