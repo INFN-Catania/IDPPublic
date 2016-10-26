@@ -30,6 +30,7 @@
             <li><a href="http://applications.eumedgrid.eu/">The EUMEDGRID Science Gateway</a></li>
             <li><a href="http://sgw.garr.it/">The GARR Science Gateway</a></li>
             <li><a href="http://gisela-gw.ct.infn.it/">The GISELA Science Gateway</a></li>
+            <li><a href="https://phg.sci-gaia.eu">The Kenya National Public Health Gateway</a></li>
             <li><a href="http://klios.ct.infn.it/">The KLIOS Science Gateway</a></li>
             <li><a href="http://sgw.marwan.ma">The Moroccan Grid Science Gateway</a></li>
             <li><a href="https://recasgateway.ba.infn.it/">The ReCaS Science Gateway</a></li>
