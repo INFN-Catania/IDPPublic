@@ -23,18 +23,17 @@
             <li><a href="http://sgw.asrenorg.net">The ASREN Science Gateway</a></li>
             <li><a href="http://science-gateway.chain-project.eu/">The CHAIN Science Gateway</a></li>
             <li><a href="http://cogito-med.ct.infn.it/">The COGITO-MED Science Gateway</a></li>
-            <li><a href="http://ecsg.dch-rp.eu">The DCH-RP e-Culture Science Gateway</a></li>
             <li><a href="http://applications.eu-decide.eu/">The DECIDE Science Gateway</a></li>
             <li><a href="http://sgw.grid.arn.dz/">The DZ e-Science GRID Science Gateway</a></li>
             <li><a href="http://earthserver-sg.consorzio-cometa.it/">The EarthServer Science Gateway</a></li>
-            <li><a href="http://applications.eumedgrid.eu/">The EUMEDGRID Science Gateway</a></li>
+            <li><a href="https://agriservicomm.sci-gaia.eu">e-AgriSERVICOMM: Adaptable e-Service Communication Model for Rural Agricultural Extension</a></li>
             <li><a href="http://sgw.garr.it/">The GARR Science Gateway</a></li>
-            <li><a href="http://gisela-gw.ct.infn.it/">The GISELA Science Gateway</a></li>
             <li><a href="https://phg.sci-gaia.eu">The Kenya National Public Health Gateway</a></li>
             <li><a href="http://klios.ct.infn.it/">The KLIOS Science Gateway</a></li>
             <li><a href="https://mipar.sci-gaia.eu">Medical Image Processor and Repository</a></li>
             <li><a href="http://sgw.marwan.ma">The Moroccan Grid Science Gateway</a></li>
             <li><a href="https://recasgateway.ba.infn.it/">The ReCaS Science Gateway</a></li>
+            <li><a href="https://plantisc2.sci-gaia.eu">Plantisc-2 Tissue Culture Simulator</a></li>
         </ol>
     </li>
 
