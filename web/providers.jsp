@@ -72,7 +72,7 @@
 
 </ul>
 
-<p>These Service Providers are no longer available inside the federation:</p>
+<p>These Service Providers are no longer supported:</p>
 <ul>
     <li><a href="http://agenda.ct.infn.it/">Agenda (based on Indico, to schedule and organise events, from simple lectures to complex meetings, workshops and conferences with sessions and contributions)</a></li>
     <li><a href="http://sgw.africa-grid.org/">The Africa Grid Science Gateway</a></li>
