@@ -45,13 +45,15 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
     private String organization;
     private String registeredMail;
     private String otherMails;
-    private String captcha;
     private String country;
     private String address;
     private String phone;
     private String orgname;
     private String description;
-    
+    private String gRecaptchaResponse;
+    private String GoogleReCapSiteKey;
+    private String GoogleReCapSecretKey;
+        
     private HttpServletRequest httpServReq;
     
 
@@ -103,7 +105,7 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
             addFieldError("organization","Select your organization");
         }
         try{
-            if(captcha.length() < 1 || Integer.parseInt(captcha) != CaptchaAction.getRightId()){
+            if(!verify(gRecaptchaResponse)){
                 addFieldError("captcha", "Wrong captcha");
             }
         }
@@ -157,13 +159,6 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
 
     }
     
-     public String getCaptcha() {
-        return captcha;
-    }
-
-    public void setCaptcha(String captcha) {
-        this.captcha = captcha;
-    }
 
     public String getPassword() {
         return password;
@@ -333,6 +328,30 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
         this.mailBody = mailBody;
     }
 
+    public String getgRecaptchaResponse() {
+        return gRecaptchaResponse;
+    }
+
+    public void setgRecaptchaResponse(String gRecaptchaResponse) {
+        this.gRecaptchaResponse = gRecaptchaResponse;
+    }
+
+    public String getGoogleReCapSiteKey() {
+        return GoogleReCapSiteKey;
+    }
+
+    public void setGoogleReCapSiteKey(String GoogleReCapSiteKey) {
+        this.GoogleReCapSiteKey = GoogleReCapSiteKey;
+    }
+
+    public String getGoogleReCapSecretKey() {
+        return GoogleReCapSecretKey;
+    }
+
+    public void setGoogleReCapSecretKey(String GoogleReCapSecretKey) {
+        this.GoogleReCapSecretKey = GoogleReCapSecretKey;
+    }
+
     
     
     private void sendMail(UserRequest usreq) throws MailException{
@@ -389,6 +408,10 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
 
     public void setServletRequest(HttpServletRequest hsr) {
         this.httpServReq = hsr;
+    }
+
+    private boolean verify(String gRecaptchaResponse) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

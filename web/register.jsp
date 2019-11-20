@@ -3,34 +3,7 @@
 <%@include file="WEB-INF/jspf/header.jspf" %>
                     <h2>Register</h2>
 
-<script type="text/javascript">
-(function( $ ){
-	$.fn.captcha = function(options){
-	var defaults = {  
-	   borderColor: "",  
-	   captchaDir: "captcha",   
-	   formId: "myForm",  
-	   text: "Verify that you are a human,<br />drag <span>scissors</span> into the circle."
-	  };	
-	
-	var options = $.extend(defaults, options); 
-
-		
-	$(this).html("<b class='ajax-fc-rtop'><b class='ajax-fc-r1'></b> <b class='ajax-fc-r2'></b> <b class='ajax-fc-r3'></b> <b class='ajax-fc-r4'></b></b><img class='ajax-fc-border' id='ajax-fc-left' src='" + options.captchaDir + "/imgs/border-left.png' /><img class='ajax-fc-border' id='ajax-fc-right' src='" + options.captchaDir + "/imgs/border-right.png' /><div id='ajax-fc-content'><div id='ajax-fc-left'><p id='ajax-fc-task'>" + options.text + "</p><ul id='ajax-fc-task'><li class='ajax-fc-0'><img src='" + options.captchaDir + "/imgs/item-none.png' alt='' /></li><li class='ajax-fc-1'><img src='" + options.captchaDir + "/imgs/item-none.png' alt='' /></li><li class='ajax-fc-2'><img src='" + options.captchaDir + "/imgs/item-none.png' alt='' /></li><li class='ajax-fc-3'><img src='" + options.captchaDir + "/imgs/item-none.png' alt='' /></li><li class='ajax-fc-4'><img src='" + options.captchaDir + "/imgs/item-none.png' alt='' /></li></ul></div><div id='ajax-fc-right'><a target='_blank' href='http://www.webdesignbeach.com'><img id='ajax-fc-backlink' src='" + options.captchaDir + "/imgs/wdb.png' alt='Web Design Beach' /></a><p id='ajax-fc-circle'></p></div></div><div id='ajax-fc-corner-spacer'></div><b class='ajax-fc-rbottom'><b class='ajax-fc-r4'></b> <b class='ajax-fc-r3'></b> <b class='ajax-fc-r2'></b> <b class='ajax-fc-r1'></b></b>");
-	 $("p#ajax-fc-task span").html("<s:bean name="it.infn.ct.security.actions.CaptchaAction"><s:property value="%{res}" />");
-    
-        <s:property value="%{imgs}" escape=""/></s:bean>;
-	$(".ajax-fc-container, .ajax-fc-rtop *, .ajax-fc-rbottom *").css("background-color", options.borderColor);
-	$("#ajax-fc-circle").droppable({
-		drop: function(event, ui) {
-			//ui.draggable("disable");
-			$("#addUser_captcha").attr('value', ui.draggable.find('img').attr('id'));
-		},
-		tolerance: 'touch'
-	});
-        };
- })( jQuery );
- 
+<script type="text/javascript"> 
  function randomNumber() {
 	var chars = "01234";
 	chars += ".";
@@ -416,7 +389,8 @@ var orgs=new Array();
                 <tr errorFor="captcha"><td><span class="errorMessage"><s:if test="fieldErrors.get('captcha').size() > 0">
                 <s:property value="fieldErrors.get('captcha').get(0)" /></s:if></span></td></tr>
                 <tr><td colspan="2"><div class="ajax-fc-container">You must enable javascript to see captcha here!</div> </td> </tr>
-                <s:hidden name="captcha" />
+                <div class="g-recaptcha"
+			data-sitekey="..................."></div>
                 <tr><td><br /></td></tr>
                 <s:submit key="register" align="center" />
             </s:form>

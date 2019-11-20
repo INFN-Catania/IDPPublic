@@ -89,6 +89,8 @@ The IDPOPEN GARR Administrators
         <action name="addUser" class="it.infn.ct.security.actions.AddUser">
             <result name="input">/register.jsp</result>
             <result name="success">/success.jsp</result>
+            <param name="GoogleReCapSiteKey"></param>
+            <param name="GoogleReCapSecretKey"></param>
             <param name="IdPAdmin">IDPOPEN Administrator</param>
             <param name="MailFrom">sgwadmin@garr.it</param>
             <param name="MailCC">sgwadmin@garr.it</param>
