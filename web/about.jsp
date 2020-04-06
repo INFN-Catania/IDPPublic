@@ -15,8 +15,7 @@
                     IDPOPEN is jointly managed by the Division of Catania of the
                     Italian National Institute of Nuclear Physics and by the
                     Department of Physics and Astronomy of the University of
-                    Catania. The service is hosted at GARR, the Italian National
-                    Research and Education Network. IDPOPEN allows people not
+                    Catania. IDPOPEN allows people not
                     enrolled in any campus' or organisation's Identity Provider
                     to validate their identities when they sign in on web pages
                     and Science Gateways that require user authentication.</p>
