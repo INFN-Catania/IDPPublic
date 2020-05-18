@@ -56,7 +56,6 @@
         <i>Training and Collaboration Portals:</i>
         <ol>
             <li><a href="http://gilda.ct.infn.it/">The GILDA t-Infrastructure portal</a></li>
-            <li><a href="http://courses.sci-gaia.eu">Sci-GaIA Online Courses based on Open Edx</a></li>
             <li><a href="https://courses.ethernet.edu.et">EthERNet Online Courses</a></li>
         </ol>
     </li>
@@ -65,7 +64,6 @@
         <ol>
             <li><a href="https://agenda.ethernet.edu.et">The Agenda of the Ethiopian Education and Research Network</a></li>
             <li><a href="http://discourse.ethernet.edu.et">Ethiopian Reasearcher Forum by Ethernet</a></li>
-            <li><a href="http://discourse.sci-gaia.eu/">Sci-GaIA project web forum on e-Infrastructures</a></li>
             <li><a href="https://foodl.org/">Foodle (surveys, polls and meeting scheduler)</a></li>
         </ol>
     </li>
@@ -78,6 +76,8 @@
     <li><a href="http://sgw.africa-grid.org/">The Africa Grid Science Gateway</a></li>
     <li><a href="http://aginfra-sg.ct.infn.it/">The agINFRA Science Gateway</a></li>
     <li><a href="http://connect.ct.infn.it/">Adobe Connect based web meeting and learning management system at INFN Catania</a></li>
+    <li><a href="http://courses.sci-gaia.eu">Sci-GaIA Online Courses based on Open Edx</a></li>
+    <li><a href="http://discourse.sci-gaia.eu/">Sci-GaIA project web forum on e-Infrastructures</a></li>
     <li><a href="http://earthserver-sg.consorzio-cometa.it/">The EarthServer Science Gateway</a></li>
 </ul>
 
