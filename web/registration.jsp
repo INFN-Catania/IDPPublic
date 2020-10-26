@@ -8,7 +8,7 @@
 
 <h2>Registered!!!</h2>
 
-<s:form action="login.action" method="POST">
+<s:form action="login" method="POST">
     <s:submit name="back" value="Back"/>
 </s:form>
 

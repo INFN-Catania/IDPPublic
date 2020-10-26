@@ -28,10 +28,10 @@
     </div>
     <s:action name="AdminAction" executeResult="true" namespace="/" />
     
-    <s:form action="ValidateRegisterUserData.action" id="register" >
+    <s:form action="ValidateRegisterUserData" id="register" >
         <s:hidden name="id" id="register_id" />
     </s:form>
-    <s:form action="DeleteAction.action" id="delete" >
+    <s:form action="DeleteAction" id="delete" >
         <s:hidden name="id" id="hidden_id" />
     </s:form>
     

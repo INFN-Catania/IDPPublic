@@ -99,7 +99,7 @@ var orgs=new Array();
 
 </script>
 <br />
-            <s:form action="addUser.action" method="POST">
+            <s:form action="addUser" method="POST">
                 <tr>
                     <td>
                         <p>

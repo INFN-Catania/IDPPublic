@@ -32,7 +32,7 @@ Oh no ! An error occur during the registration.... don't worry, it's probably so
 <p>
 If the problem persists, send an email to <a href="mailto:CHANGEME">IDP Admin</a>.
 
-    <s:form action="login.action" method="POST">
+    <s:form action="login" method="POST">
         <s:submit name="back" value="Back"/>
     </s:form>
 
