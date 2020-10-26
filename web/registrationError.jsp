@@ -32,7 +32,7 @@ limitations under the License.
 An error occur during the registration.
 Please, try again to register and if the problem persist send an email to <a href="mailto:sgwadmin@garr.it">credentials-admin@ct.infn.it</a>.
 
-    <s:form action="login.action" method="POST">
+    <s:form action="login" method="POST">
         <s:submit name="back" value="Back"/>
     </s:form>
 

@@ -16,7 +16,7 @@
 
         <h3>Confirm registration for the user: <i><s:property value="userReq.givenname"/> <s:property value="userReq.surname"/></i></h3>
         
-            <s:form action="RegisterUser.action" method="POST">
+            <s:form action="RegisterUser" method="POST">
                 <s:hidden name="user_id" value="%{userReq.id}"/>
                 <s:label label="Name" value="%{userReq.title} %{userReq.givenname} %{userReq.surname}"/>
                 <s:label label="Username" value="%{userReq.username}"/>
