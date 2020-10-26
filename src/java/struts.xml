@@ -38,7 +38,7 @@
         
         <action name="passreset" class="it.infn.ct.security.actions.PassReset">
             <result name="input">/resetpass.jsp</result>
-            <result name="error">/generalError.jsp</result>
+            <result name="error">/passwordError.jsp</result>
             <result name="success">/passUpdated.jsp</result>
         </action>
         <action name="passrecovery" class="it.infn.ct.security.actions.PassRecovery">
