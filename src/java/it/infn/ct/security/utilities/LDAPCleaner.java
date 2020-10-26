@@ -25,6 +25,7 @@ import it.infn.ct.security.actions.MailException;
 import it.infn.ct.security.entities.UserConfirmUpdate;
 import it.infn.ct.security.entities.UserRequest;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.MissingResourceException;
@@ -102,6 +103,7 @@ public class LDAPCleaner implements Runnable{
                 if(ses.createCriteria(UserConfirmUpdate.class)
                         .add(Restrictions.eq("username", user.getUsername()))
                         .add(Restrictions.eq("updated", Boolean.FALSE))
+		        .add(Restrictions.gt("timelimit", new Date()))
                         .list()
                         .isEmpty())
                 {
