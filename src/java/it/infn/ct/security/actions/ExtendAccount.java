@@ -26,6 +26,7 @@ import it.infn.ct.security.entities.UserConfirmUpdate;
 import it.infn.ct.security.utilities.LDAPUser;
 import it.infn.ct.security.utilities.LDAPUtils;
 import java.io.UnsupportedEncodingException;
+import java.util.Date;
 import java.util.List;
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -62,6 +63,7 @@ public class ExtendAccount extends ActionSupport{
         for(UserConfirmUpdate conf: (List<UserConfirmUpdate>)session.createCriteria(UserConfirmUpdate.class)
                 .add(Restrictions.eq("username", username))
                 .add(Restrictions.eq("updated", Boolean.FALSE))
+                .add(Restrictions.gt("timelimit", new Date()))
                 .list()){
 
             conf.setUpdated(true);
