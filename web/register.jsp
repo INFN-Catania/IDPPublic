@@ -418,7 +418,7 @@ var orgs=new Array();
                 <tr><td colspan="2"><div class="ajax-fc-container">You must enable javascript to see captcha here!</div> </td> </tr>
                 <s:hidden name="captcha" />
                 <tr><td><br /></td></tr>
-                <s:submit key="register" align="center" />
+                <s:submit value="Register" align="center" />
             </s:form>
 
              <p><h2>Note</h2><p>
