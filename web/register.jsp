@@ -59,13 +59,13 @@ function tmpOrg(key, countryCode, description){
     this.description=description;
     
 }
-
-$(function() {
-        $(".ajax-fc-container").captcha({
-                borderColor: "silver",
-                text: "Verify that you are a human,<br />drag <span>scissors</span> into the circle."
-        });
-});
+//
+//$(function() {
+//        $(".ajax-fc-container").captcha({
+//                borderColor: "silver",
+//                text: "Verify that you are a human,<br />drag <span>scissors</span> into the circle."
+//        });
+//});
 
 var orgs=new Array();
 <s:action name="OrgAction" executeResult="true" />
@@ -392,7 +392,7 @@ var orgs=new Array();
                 <div class="g-recaptcha"
 			data-sitekey="..................."></div>
                 <tr><td><br /></td></tr>
-                <s:submit key="register" align="center" />
+                <s:submit value="Register" align="center" />
             </s:form>
 
              <p><h2>Note</h2><p>
