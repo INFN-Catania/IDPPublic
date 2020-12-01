@@ -32,7 +32,7 @@
         <s:hidden name="id" id="hidden_id" />
     </s:form>
     
-    <s:form action="ActivateAccount.action" id="activate" >
+    <s:form action="ActivateAccount" id="activate" >
         <s:hidden name="id" id="request_id" />
         <s:hidden name="action" id="action" />
     </s:form>
