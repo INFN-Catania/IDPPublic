@@ -40,6 +40,7 @@
             <li><a href="http://www.openaccessrepository.it">The INFN Open Access Repository</a></li>
             <li><a href="https://nadre.ethernet.edu.et">The Open Access Repository managed and operated by National Academic Digital Repository of Ethiopia</a></li>
             <li><a href="https://elibrary.ralga.rw">The Repository of the Rwanda Association of Local Government Authorities (RALGA)</a></li>
+            <li><a href="https://sorer.somaliren.org.so/">The Somali Research and Education Repository (SORER)</a></li>
             <li><a href="https://access.ternet.or.tz">The TERNET Open Access Repository</a></li>
         </ol>
     </li>
