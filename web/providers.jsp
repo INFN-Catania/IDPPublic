@@ -63,6 +63,7 @@
         <i>Other Services:</i>
         <ol>
             <li><a href="https://agenda.ethernet.edu.et">The Agenda of the Ethiopian Education and Research Network</a></li>
+            <li><a href="https://events.somaliren.org.so">The Agenda of the Somali Research and Education Network</a></li>
             <li><a href="http://discourse.ethernet.edu.et">Ethiopian Reasearcher Forum by Ethernet</a></li>
             <li><a href="https://foodl.org/">Foodle (surveys, polls and meeting scheduler)</a></li>
         </ol>
