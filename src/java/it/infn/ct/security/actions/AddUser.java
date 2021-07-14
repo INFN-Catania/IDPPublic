@@ -38,11 +38,13 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
     
     private String username;
     private String givenname;
+    private String gender;
     private String password;
     private String password2;
     private String surname;
     private String title;
     private String organization;
+    private String position;
     private String registeredMail;
     private String otherMails;
     private String country;
@@ -50,9 +52,6 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
     private String phone;
     private String orgname;
     private String description;
-    private String gRecaptchaResponse;
-    private String GoogleReCapSiteKey;
-    private String GoogleReCapSecretKey;
         
     private HttpServletRequest httpServReq;
     
@@ -62,7 +61,7 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
         if("Other:".equals(organization)){
             organization=orgname;
         }
-        usreq = new UserRequest(username, givenname, surname, title, organization,password, registeredMail, otherMails, country, address, phone, description);
+        usreq = new UserRequest(username, givenname, surname, title, gender, organization, position, password, registeredMail, otherMails, country, address, phone, description);
         
         SessionFactory factory = (SessionFactory) ServletActionContext.getServletContext().getAttribute("IDPPublic.hibernatefactory");
         Session session = factory.openSession();
@@ -103,14 +102,6 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
         }
         if(organization==null || organization.equals("-1") || (organization.equals("Other:") && (orgname==null || orgname.isEmpty()))){
             addFieldError("organization","Select your organization");
-        }
-        try{
-            if(!verify(gRecaptchaResponse)){
-                addFieldError("captcha", "Wrong captcha");
-            }
-        }
-        catch(Exception e){
-            addFieldError("captcha", "Wrong Captcha");
         }
         if(password.length() < 8){
             addFieldError("password","Minimum password length is 8 characters");
@@ -225,6 +216,14 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
         this.givenname = givenname;
     }
 
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
     public String getTitle() {
         return title;
     }
@@ -271,6 +270,14 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
 
     public void setOrgname(String orgname) {
         this.orgname = orgname;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
     }
 
     public void addParam(String name, String value) {
@@ -328,32 +335,6 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
         this.mailBody = mailBody;
     }
 
-    public String getgRecaptchaResponse() {
-        return gRecaptchaResponse;
-    }
-
-    public void setgRecaptchaResponse(String gRecaptchaResponse) {
-        this.gRecaptchaResponse = gRecaptchaResponse;
-    }
-
-    public String getGoogleReCapSiteKey() {
-        return GoogleReCapSiteKey;
-    }
-
-    public void setGoogleReCapSiteKey(String GoogleReCapSiteKey) {
-        this.GoogleReCapSiteKey = GoogleReCapSiteKey;
-    }
-
-    public String getGoogleReCapSecretKey() {
-        return GoogleReCapSecretKey;
-    }
-
-    public void setGoogleReCapSecretKey(String GoogleReCapSecretKey) {
-        this.GoogleReCapSecretKey = GoogleReCapSecretKey;
-    }
-
-    
-    
     private void sendMail(UserRequest usreq) throws MailException{
         javax.mail.Session session=null;
         try {
@@ -410,8 +391,4 @@ public class AddUser extends ActionSupport  implements Parameterizable, ServletR
         this.httpServReq = hsr;
     }
 
-    private boolean verify(String gRecaptchaResponse) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
 }

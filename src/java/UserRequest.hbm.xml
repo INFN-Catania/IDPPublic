@@ -17,8 +17,14 @@
         <property name="title">
             <column name="TITLE"/>
         </property>
+        <property name="gender">
+            <column name="GENDER"/>
+        </property>
         <property name="organization">
             <column name="ORGANIZATION"/>
+        </property>
+        <property name="position">
+            <column name="POSITION"/>
         </property>
         <property name="preferredMail">
             <column name="PRINCIPALMAIL"/>

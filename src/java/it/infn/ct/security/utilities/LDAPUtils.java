@@ -609,7 +609,17 @@ public class LDAPUtils {
                 Attribute title = new BasicAttribute("title", userReq.getTitle());
                 attrsBag.put(title);
             }
+
+            if(userReq.getPosition()!=null && !userReq.getPosition().isEmpty()){
+                Attribute position = new BasicAttribute("employeeType", userReq.getPosition());
+                attrsBag.put(position);
+            }
             
+            if(userReq.getGender()!=null && !userReq.getGender().isEmpty()){
+                Attribute gender = new BasicAttribute("description", userReq.getGender());
+                attrsBag.put(gender);
+            }
+
             Attribute gName = new BasicAttribute("givenName", userReq.getGivenname());
             attrsBag.put(gName);
             

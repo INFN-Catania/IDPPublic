@@ -81,6 +81,7 @@ var orgs=new Array();
                 </td></tr>
                 <s:textfield label="Given Name" name="givenname" maxLength="50" required="true" />
                 <s:textfield label="Family Name" name="surname" maxLength="50" required="true" />
+                <s:select label="Gender" list="{'Undeclared','Male','Female'}" name="gender" />
                 <s:textfield label="Title" name="title" maxLength="50" />
                 <s:textfield label="Address" name="address" maxLength="255" />
                 <s:textfield label="Phone" name="phone" maxLength="50" />
@@ -381,16 +382,9 @@ var orgs=new Array();
                         </div>
                     </td>
                 </tr>
+                <s:textfield label="Position inside the organisation" name="position" maxLength="150" required="false" />
                 <s:textfield label="Institutional Email Address" tooltip="Mail with the domain of the selected organisation" name="registeredMail" maxLength="128" required="true" />
                 <s:textfield label="Additional Email Addresses" tooltip="Separate the addresses with a , or ;" name="otherMails" maxLength="512" />
-                <tr><td><br /></td></tr>
-                <tr><td><p><h2>Validation</h2></p></td></tr>
-                <tr><td><br /></td></tr>
-                <tr errorFor="captcha"><td><span class="errorMessage"><s:if test="fieldErrors.get('captcha').size() > 0">
-                <s:property value="fieldErrors.get('captcha').get(0)" /></s:if></span></td></tr>
-                <tr><td colspan="2"><div class="ajax-fc-container">You must enable javascript to see captcha here!</div> </td> </tr>
-                <div class="g-recaptcha"
-			data-sitekey="..................."></div>
                 <tr><td><br /></td></tr>
                 <s:submit value="Register" align="center" />
             </s:form>

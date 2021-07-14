@@ -13,9 +13,11 @@ public class UserRequest implements Serializable {
     private String givenname;
     private String surname;
     private String title;
+    private String gender;
     private String organization;
     private String organizationDN;
     private String organizationUnitDN;
+    private String position;
     private String password;
     private String preferredMail;
     private String additionalMails;
@@ -33,14 +35,16 @@ public class UserRequest implements Serializable {
     }
 
     public UserRequest(String username, String givenname, 
-            String surname, String title, String organization, 
+            String surname, String title, String gender, String organization, String position,
             String password, String officialMail, String mails, String country, String address, String phone, String description) {
         
         this.username = username;
         this.givenname = givenname;
         this.surname = surname;
         this.title = title;
+        this.gender = gender;
         this.organization = organization;
+        this.position = position;
         this.password = password;
         this.preferredMail = officialMail;
         this.additionalMails = mails;
@@ -214,6 +218,22 @@ public class UserRequest implements Serializable {
 
     public void setOrganizationUnitDN(String organizationUnitDN) {
         this.organizationUnitDN = organizationUnitDN;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
     }
 
     

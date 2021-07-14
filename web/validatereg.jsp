@@ -18,10 +18,11 @@
         
             <s:form action="RegisterUser" method="POST">
                 <s:hidden name="user_id" value="%{userReq.id}"/>
-                <s:label label="Name" value="%{userReq.title} %{userReq.givenname} %{userReq.surname}"/>
+                <s:label label="Name" value="%{userReq.title} %{userReq.givenname} %{userReq.surname}, %{userReq.gender}"/>
                 <s:label label="Username" value="%{userReq.username}"/>
                 <s:label label="PreferredMail" value="%{userReq.preferredMail}"/>
                 <s:label label="AdditionalMails" value="%{userReq.additionalMails}"/>
+                <s:label label="Position inside the organisation" value="%{userReq.position}"/>
                 <s:if test="%{userReq.organizationDN != null}">
                     <s:textfield label="Organisation" name="organizationDN" value="%{userReq.organizationDN}" size="30" readonly="true" /><br/>
                 </s:if>
